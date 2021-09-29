@@ -91,6 +91,14 @@ under the License.
 		<module>tools/ci/java-ci-tools</module>
 	</modules>
 
+	<repositories>
+		<repository>
+			<name>mvn-repo</name>
+			<id>mvn-repo</id>
+			<url>https://repo1.maven.org/maven2</url>
+		</repository>
+	</repositories>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
